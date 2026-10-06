@@ -1,6 +1,6 @@
 /* sw.js — DescubrirTe service worker: offline shell + daily reminders. */
-const CACHE = 'descubrirte3-v1';
-const CFG = '__dt3_reminders__';
+const CACHE = 'descubrirte-3d-v7';
+const CFG = '__dt_reminders__';
 
 const LOCAL = [
   './', './index.html', './DescubrirTe.html', './manifest.webmanifest',
