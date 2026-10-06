@@ -215,9 +215,11 @@ const DT_PROGRAM = [
   },
 ];
 
+const DT_PROGRAM_TRIAL = DT_PROGRAM.slice(0, 3);
+
 function dtProgramDay(day) {
   if (!day) return null;
-  return DT_PROGRAM[(day - 1) % DT_PROGRAM.length] || null;
+  return DT_PROGRAM_TRIAL[(day - 1) % DT_PROGRAM_TRIAL.length] || null;
 }
 
 Object.assign(window, { DT_PROGRAM, dtProgramDay });

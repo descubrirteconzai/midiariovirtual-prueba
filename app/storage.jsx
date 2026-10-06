@@ -1,6 +1,6 @@
 // storage.jsx — persistence + demo seed for DescubrirTe 21.
 
-const DT_KEY = 'dt21_state_v1';
+const DT_KEY = 'dt3_state_v1';
 
 function dtDefaultState() {
   return {
@@ -138,11 +138,12 @@ function dtSeedDemo(state) {
   DT_DEMO_DAYS.slice(0, 3).forEach((d, i) => { next.entries[i + 1] = d; });
   next.cycleLength = 3;
   next.currentDay = 3;
+  next.dayDates = {};
   next.onboarded = true;
   next.usedDemo = true;
   // backdate start so the calendar reads naturally
   const start = new Date();
-  start.setDate(start.getDate() - 2);
+  start.setDate(start.getDate() - 6);
   next.startDate = start.toISOString();
   return next;
 }

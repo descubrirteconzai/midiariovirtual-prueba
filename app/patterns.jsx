@@ -2,7 +2,7 @@
 
 function DTPatterns({ state, onLoadDemo, onExport }) {
   const a = dtAnalyze(state.entries, state.cycleLength);
-  const enough = a.filledDays >= 2;
+  const enough = a.filledDays >= 3;
 
   if (!enough) {
     return (
@@ -21,7 +21,7 @@ function DTPatterns({ state, onLoadDemo, onExport }) {
             Llevás {a.filledDays} {a.filledDays === 1 ? 'día' : 'días'} registrados
           </div>
           <p style={{ fontFamily: 'var(--f-sans)', fontSize: 13.5, color: 'var(--ink-soft)',
-            margin: '0 0 18px' }}>Con 2 días ya empiezo a mostrarte tus primeros patrones.</p>
+            margin: '0 0 18px' }}>Con 3 días ya empiezo a mostrarte tus primeros patrones.</p>
           <DTButton variant="soft" onClick={onLoadDemo}>Ver con 3 días de ejemplo</DTButton>
         </DTCard>
       </div>
