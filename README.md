@@ -2,12 +2,12 @@
 
 Diario guiado de mañana y noche que detecta automáticamente los patrones que se repiten en lo que sentís.
 
-> DescubrirTe es el acto de amor más valiente que existe.
+> DescubrirTe es volver a vos.
 
 ## Qué hace
 
 - **Check-in de mañana y de noche** con preguntas guía, ánimo, energía y descanso. Las preguntas de la mañana van rotando día a día.
-- **Ejercicio del día** — los ejercicios del diario *"7 días para salir de la neblina mental y recuperar la calma"*.
+- **Ejercicio del día** — los 3 primeros ejercicios del diario *"7 días para salir de la neblina mental y recuperar la calma"*.
 - **Prueba de 3 días**, con calendario del viaje.
 - **Patrones automáticos**: curva de ánimo, palabras que más repetís, temas y disparadores, energía vs. descanso, e insights redactados.
 - **Resumen exportable** como imagen (PNG) o PDF.
