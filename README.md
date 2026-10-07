@@ -1,6 +1,6 @@
 # DescubrirTe
 
-Diario guiado de mañana y noche que detecta automáticamente los patrones que se repiten en lo que sentís.
+Prueba de Mi Diario guiado de mañana y noche que detecta automáticamente los patrones que se repiten en lo que sentís.
 
 > DescubrirTe es volver a vos.
 
